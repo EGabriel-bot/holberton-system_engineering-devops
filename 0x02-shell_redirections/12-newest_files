@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Art | tail -n 10 | ls -l --sort=time
+ls -Art | head -10 | ls -lt
