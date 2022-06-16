@@ -2,8 +2,7 @@
 # This script displays "Best School" 10 times using a unitl loop
 
 counter=1
-until [ $counter -gt 10 ]
-do
-  echo "Best School"
-  ((counter++))
+until [ $counter -gt 10 ];do
+    echo "Best School"
+    ((counter++))
 done
