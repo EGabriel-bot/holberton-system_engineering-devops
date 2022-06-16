@@ -2,8 +2,8 @@
 # This script displays "Best School" 10 times using a while loop
 # for the 9th iteration displays "Best School" and then hi
 
-counter=0
-while [ $counter -lt 10 ]
+counter=1
+while [ $counter -le 10 ]
 do
   echo "Best School"
   if [ $counter -eq 9 ]

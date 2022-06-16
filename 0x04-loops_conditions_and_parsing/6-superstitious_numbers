@@ -7,6 +7,7 @@
 counter=0
 while [ $counter -lt 20 ]
 do
+  echo $counter
   case $counter in
 
     4)
@@ -22,5 +23,4 @@ do
       ;;
   esac
   ((counter++))
-  echo $counter
 done
